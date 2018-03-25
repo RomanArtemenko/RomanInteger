@@ -74,9 +74,6 @@ def _main(input_string):
 			print(roman_to_integer(input_string))
 		else:
 			print("The input value must be an integer or roman number")
-		 
 
 if __name__ == "__main__":
 	_main(input('Enter Roman or Integer number: '))
-	
-
