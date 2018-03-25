@@ -70,7 +70,7 @@ def _main(input_string):
 		else:
 			print('The Number must be "0 < integer <= 3999"')
 	except :
-		if is_valid_roman_sumbols(input_string):
+		if len(input_string) > 0 and is_valid_roman_sumbols(input_string):
 			print(roman_to_integer(input_string))
 		else:
 			print("The input value must be an integer or roman number")
